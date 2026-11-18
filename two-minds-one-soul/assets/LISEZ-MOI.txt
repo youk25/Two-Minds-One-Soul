@@ -1,0 +1,1 @@
+Dépose ici tes images (png) puis déclare-les dans js/config.js > ASSETS.

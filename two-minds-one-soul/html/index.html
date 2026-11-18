@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Two Minds One Soul</title>
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body data-world="light">
+<main id="app">
+  <header>
+    <h1>Two Minds One Soul</h1>
+    <div id="lvl"></div>
+  </header>
+  <div id="stage"><canvas id="game"></canvas><div id="msg"></div></div>
+  <section id="hud">
+    <div id="who"></div>
+    <div id="resWrap">Coins<div id="res"><span></span><span></span><span></span></div> <b id="resN"></b></div>
+    <div id="btns">
+      <button id="bRestart">Restart</button>
+      <button id="bSet">Settings</button>
+      <button id="bMute">Sound: on</button>
+    </div>
+  </section>
+  <p id="hint"></p><br>
+  <p id="keysLine"></p>
+</main>
+<div id="overlay" class="hidden"><div id="card"></div></div>
+
+<script src="../js/config.js"></script>
+<script src="../js/levels.js"></script>
+<script src="../js/audio.js"></script>
+<script src="../js/game.js"></script>
+<script src="../js/input.js"></script>
+<script src="../js/render.js"></script>
+<script src="../js/main.js"></script>
+</body>
+</html>
