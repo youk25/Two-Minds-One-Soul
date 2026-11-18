@@ -3,6 +3,9 @@
 Jeu de réflexion 2D (HTML / CSS / JavaScript, sans dépendance).
 Un seul esprit, deux personnages : **LIGHT** (espoir) et **DARK** (peurs).
 
+# Vidéo
+https://www.youtube.com/watch?v=PSU_pbqBCl8
+
 ## Lancer le jeu
 Double-cliquer sur `game.html` (ou ouvrir dans un navigateur). Aucune installation.
 
